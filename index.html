@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Search Bar</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+        }
+        .bar {
+            display: flex;
+            width: 100%;
+            max-width: 600px;
+        }
+        .bar input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #c9bdbd;
+            border-radius: 4px 0 0 4px;
+            outline: none;
+            font-size: 14px;
+        }
+        .bar button {
+            padding: 10px;
+            border: none;
+            background-color: #af0f0f;
+            color: white;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .bar button:hover {
+            background-color: #7b6565;
+        }
+    </style>
+</head>
+<body>
+    <div class="bar">
+        <input type="text" placeholder="Search YouTube">
+        <button type="button">Search</button>
+    </div>
+</body>
+</html>
